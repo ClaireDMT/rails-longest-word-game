@@ -1,24 +1,14 @@
-# README
+Le Wagon Bootcamp Challenge on Week 6, first day on Ruby On Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Background & Objectives:
 
-Things you may want to cover:
+Time to implement a "Longest-word game" with a cool web-interface! For some of you, it will seem familiar.
 
-* Ruby version
+Before jumping into the exercise, read the rules: https://github.com/lewagon/fullstack-challenges/tree/master/01-Ruby/06-Parsing/02-Numbers-and-Letters
 
-* System dependencies
+Specs
 
-* Configuration
+Let's think about the UI for our game. What do we need?
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    A page to display the game settings (random letters), with a form for the user to type a word. A button to submit this form.
+    A page receiving this form, computing the user score and displaying it.
